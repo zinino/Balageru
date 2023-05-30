@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0b3948;
+  height: 100%;
+}
+h3 {
+  color: #d0cdd7;
+}
+h2 {
+  margin-left: 20px;
+  color: #d0cdd7;
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+}
+.input-container {
+  margin-top: 50px;
+  text-align: center;
+}
+.input {
+  padding: 10px 8px 10px;
+  border-radius: 8px;
+  margin: 20px 10px 20px;
+}
+.sub-btn {
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #416165;
+  color: #d0cdd7;
+  transition: all 0.3s ease;
+}
+.sub-btn:hover {
+  color: #416165;
+  background-color: #d0cdd7;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+img {
+  height: 400px;
+  width: 422px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.logo {
+  position: absolute;
+  top: 2%;
+  left: 70%;
+  width: 150px;
+  height: 150px;
+}
+.container-1 {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  color: #d0cdd7;
+}
+
+.container-2 {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  color: #d0cdd7;
+}
+.container-3 {
+  position: absolute;
+  top: 35%;
+  left: 65%;
+  color: #d0cdd7;
+}
+
+.container-4 {
+  position: absolute;
+  top: 120%;
+  left: 5%;
+  color: #d0cdd7;
+}
+.container-5 {
+  position: absolute;
+  top: 120%;
+  left: 35%;
+  color: #d0cdd7;
+}
+.container-6 {
+  position: absolute;
+  top: 120%;
+  left: 65%;
+  color: #d0cdd7;
+}
+.container-7 {
+  position: absolute;
+  top: 200%;
+  left: 5%;
+  color: #d0cdd7;
+}
+.container-8 {
+  position: absolute;
+  top: 200%;
+  left: 35%;
+  color: #d0cdd7;
+}
+.container-9 {
+  position: absolute;
+  top: 200%;
+  left: 65%;
+  color: #d0cdd7;
+}
+.container-10 {
+  position: absolute;
+  top: 280%;
+  left: 5%;
+  color: #d0cdd7;
+}
+.container-11 {
+  position: absolute;
+  top: 280%;
+  left: 35%;
+  color: #d0cdd7;
+}
+.container-12 {
+  position: absolute;
+  top: 280%;
+  left: 65%;
+  color: #d0cdd7;
+}
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5,
+.container-6,
+.container-7,
+.container-8,
+.container-9,
+.container-10,
+.container-11,
+.container-12 {
+  transition: all 0.3s;
+}
+.container-1:hover,
+.container-2:hover,
+.container-3:hover,
+.container-4:hover,
+.container-5:hover,
+.container-6:hover,
+.container-7:hover,
+.container-8:hover,
+.container-9:hover,
+.container-10:hover,
+.container-11:hover,
+.container-12:hover {
+  cursor: pointer;
+  transform: translateY(-30px);
+}
+.txt-container-1,
+.txt-container-2,
+.txt-container-3,
+.txt-container-4,
+.txt-container-5,
+.txt-container-6,
+.txt-container-7,
+.txt-container-8,
+.txt-container-9,
+.txt-container-10,
+.txt-container-11,
+.txt-container-12 {
+  font-family: "Roboto Mono", monospace;
+}
+.break {
+  padding: 10px;
+  border-radius: 4px;
+  margin: 30px 100px 10px;
+  border: none;
+  outline: none;
+  background-color: #416165;
+  color: #d0cdd7;
+}
+.break:hover {
+  box-shadow: 5px 5px 5px rgb(140, 36, 36);
+  background-color: #d0cdd7;
+  color: #416165;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.title {
+  color: #edeec0;
+}
+#message-el {
+  font-style: oblique;
+}
+.Game-container {
+  display: none;
+  text-align: center;
+  position: relative;
+  margin: auto auto auto;
+  width: 500px;
+  height: 500px;
+  background: grey;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  border-radius: 12px;
+}
+button {
+  color: #016f32;
+  width: 150px;
+  background-color: #7c9082;
+  margin: 10px 10px;
+  border: none;
+  border-radius: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bolder;
+}
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+button:active {
+  opacity: 0.6;
+  background-color: #016f32;
+  color: goldenrod;
+}
+.close {
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: #48233c;
+  background-color: #96acb7;
+}
