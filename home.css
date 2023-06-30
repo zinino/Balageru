@@ -142,6 +142,9 @@ button:hover {
     margin-top: 100px;
     margin-right: 20px;
   }
+  img{
+    width: 50%;
+  }
   .logo {
     display: block;
     left: 5%;
