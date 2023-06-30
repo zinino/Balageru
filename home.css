@@ -57,6 +57,13 @@ img {
   width: 150px;
   height: 150px;
 }
+.logo-2 {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  width: 200px;
+  height: 180px;
+}
 .container {
   display: grid;
   grid-column-gap: 1em;
@@ -142,14 +149,15 @@ button:hover {
     margin-top: 100px;
     margin-right: 20px;
   }
-  img{
+  img {
     width: 90%;
   }
   .logo {
-    display: block;
-    left: 5%;
+    left: 45%;
   }
-
+  .logo-2 {
+    display: inline-block;
+  }
   .input-container {
     display: block;
     margin-top: 200px;
