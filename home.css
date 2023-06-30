@@ -136,7 +136,7 @@ button:hover {
   background-color: #a63d40;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .container {
     display: block;
     margin: 100px;
@@ -146,7 +146,7 @@ button:hover {
   .txt-container {
     margin: 1em auto 5em;
   }
-  .Game-container{
+  .Game-container {
     top: 35%;
     left: 10%;
   }
@@ -156,5 +156,20 @@ button:hover {
     left: 5%;
     width: 80px;
     height: 80px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    display: block;
+    margin: 100px;
+    align-self: center;
+    justify-content: center;
+  }
+  h2 {
+    display: block;
+    margin-left: 20px;
+    color: #d0cdd7;
+    font-family: "Oswald", sans-serif;
+    font-size: 48px;
   }
 }
