@@ -140,6 +140,7 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 100px;
+    margin-right: 20px;
   }
   .logo {
     display: block;
