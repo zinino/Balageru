@@ -135,24 +135,3 @@ button:hover {
   color: #fff;
   background-color: #a63d40;
 }
-@media (max-width: 600px) {
-  .container {
-    display: block;
-    margin: 100px;
-    align-self: center;
-  }
-  .txt-container {
-    margin: 1em auto 5em;
-  }
-  .Game-container {
-    top: 35%;
-    left: 10%;
-  }
-  .logo {
-    position: absolute;
-    top: 2%;
-    left: 5%;
-    width: 80px;
-    height: 80px;
-  }
-}
