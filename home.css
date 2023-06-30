@@ -136,7 +136,7 @@ button:hover {
   background-color: #a63d40;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .container {
     display: block;
     margin: 100px;
