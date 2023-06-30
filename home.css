@@ -135,3 +135,24 @@ button:hover {
   color: #fff;
   background-color: #a63d40;
 }
+@media (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 100px;
+  }
+  .logo {
+    display: block;
+    left: 5%;
+  }
+
+  .input-container {
+    display: block;
+    margin-top: 200px;
+  }
+  .Game-container {
+    width: 200px;
+    height: 350px;
+    top: 60%;
+  }
+}
