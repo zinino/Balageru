@@ -135,8 +135,11 @@ button:hover {
   color: #fff;
   background-color: #a63d40;
 }
+.h1{
+  /* eh nehedbed */
+}
 
-@media (max-width: 600px) {
+@media (max-width: 300px) {
   .container {
     display: block;
     margin: 100px;
